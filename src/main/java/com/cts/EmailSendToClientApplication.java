@@ -12,7 +12,7 @@ public class EmailSendToClientApplication implements CommandLineRunner{
 	
 	@Autowired
 	private MailService mailService;
-
+//main function
 	public static void main(String[] args) {
 		SpringApplication.run(EmailSendToClientApplication.class, args);
 	}
